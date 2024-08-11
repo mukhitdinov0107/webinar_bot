@@ -1,2 +1,1 @@
-aiorgram
-logging
+aiogram
