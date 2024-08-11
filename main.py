@@ -14,7 +14,7 @@ bot = Bot(token=API_TOKEN)
 dp = Dispatcher()
 
 # Channel usernames or IDs the user needs to subscribe to
-required_channels = ['@najmitdinm']  # Replace with your channel usernames
+required_channels = ['@najmitdinm', '@temurjournals', '@With_Suhrob_Boratov', '@lkchanaev']  # Replace with your channel usernames
 
 async def is_user_subscribed(user_id: int, channel: str) -> bool:
     """Check if a user is subscribed to a channel."""
